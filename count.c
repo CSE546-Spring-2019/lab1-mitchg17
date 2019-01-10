@@ -73,7 +73,7 @@ int main(int argc, char *argv[]){
 			}
 		}while(readLen > 0);
 
-		fprintf(outFile, "Length in bytes: %i\n", count - 1);
+		fprintf(outFile, "Length in bytes: %i\n", count);
 		fprintf(outFile, "Number of matches: %i\n", foundCount);
 		fclose(inFile);
 		fclose(outFile);
